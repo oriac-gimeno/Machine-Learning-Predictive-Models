@@ -42,9 +42,9 @@ The Brazilian e‑commerce market is experiencing exponential growth. To design 
 **Source:** [Brazilian E‑Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) (Kaggle).
 
 **Key characteristics:**
-- **113,425 orders** from September 2016 to October 2018.
+- **99,441 orders** from September 2016 to October 2018 (113,425 order lines once orders are joined to their items).
 - **32,951 unique products** across **52 product categories** (after reduction from 71).
-- **8 related tables** containing information on customers, products, payments, reviews, geolocation, etc.
+- **9 related tables** containing information on customers, products, payments, reviews, geolocation, etc.
 - **48 variables** including price, dates, customer location, product attributes, and review scores.
 
 ---
@@ -112,6 +112,8 @@ The best performing model varied by category. Examples:
 - **Prophet** – *Health & Beauty*: **MAPE = 20.4%**
 - **SARIMA** – *Home Appliances*: **MAPE = 22.6%**
 - **XGBoost** – *Computer Accessories*: **MAPE = 17.7%**
+
+Across the top 15 categories, with the best model chosen for each (mostly XGBoost), MAPE ranges from **17.66% to 22.31%** in the best-forecast categories and rises to **46.80%** and **57.35%** in low-volume categories with mixed content. The best single result is XGBoost on *Computer Accessories* (17.7%).
 
 Detailed results, including metric comparisons for all 15 categories, are available inside the project notebooks.
 
