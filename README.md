@@ -115,7 +115,7 @@ The best performing model varied by category. Examples:
 
 Across the top 15 categories, with the best model chosen for each (mostly XGBoost), MAPE ranges from **17.66% to 22.31%** in the best-forecast categories and rises to **46.80%** and **57.35%** in low-volume categories with mixed content. The best single result is XGBoost on *Computer Accessories* (17.7%).
 
-Detailed results, including metric comparisons for all 15 categories, are available inside the project notebooks.
+Detailed results, including metric comparisons for all 15 categories, are in the exported notebook (see Project Structure below).
 
 ---
 
@@ -136,6 +136,12 @@ Detailed results, including metric comparisons for all 15 categories, are availa
 
 Machine-Learning-Predictive-Models/
 ├── 📜 README.md
-├── 📦 Proejecte Final_ZIP.zip # Zipped folder with all notebooks and scripts
-├── 📊 Projecte Final _ Presentació Olist.pptx # Final presentation (this content)
-└── 📜 requirements.txt # Python dependencies (to be created)
+├── 📄 olist-notebook-export.pdf # 148-page export of the Colab notebook: every
+│                                # step, its code and its output charts, in
+│                                # Catalan. Opens in the browser, no download
+└── 📊 Projecte Final _ Presentació Olist.pptx # Final presentation
+
+> **Known limitation.** The code is here as a PDF export, so it can be read but
+> not copied or run. The source notebook and a `requirements.txt` are not in
+> this repository yet. Publishing the `.ipynb` at the root, the way the CNN
+> repository does, is the next step for this project.
