@@ -136,11 +136,12 @@ Detailed results, including metric comparisons for all 15 categories, are in the
 
 Machine-Learning-Predictive-Models/
 ├── 📜 README.md
-├── 📦 Proejecte Final_ZIP.zip # One file: a 148-page PDF export of the Colab
-│                              # notebook (code and outputs, written in Catalan)
+├── 📄 olist-notebook-export.pdf # 148-page export of the Colab notebook: every
+│                                # step, its code and its output charts, in
+│                                # Catalan. Opens in the browser, no download
 └── 📊 Projecte Final _ Presentació Olist.pptx # Final presentation
 
-> **Known limitation.** The code is currently only available as that PDF export,
-> so it cannot be read on GitHub, copied, or run. The source notebook and a
-> `requirements.txt` are not in this repository yet. Publishing the `.ipynb` at
-> the root, the way the CNN repository does, is the next step for this project.
+> **Known limitation.** The code is here as a PDF export, so it can be read but
+> not copied or run. The source notebook and a `requirements.txt` are not in
+> this repository yet. Publishing the `.ipynb` at the root, the way the CNN
+> repository does, is the next step for this project.
